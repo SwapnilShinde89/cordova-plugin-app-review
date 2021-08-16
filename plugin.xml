@@ -11,7 +11,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <issue>https://github.com/chemerisuk/cordova-plugin-app-review/issues</issue>
 
     <js-module src="www/AppReview.js" name="AppReview">
-        <merges target="cordova.plugins.AppReview" />
+        <clobbers target="AppReview" />
     </js-module>
 
     <engines>
